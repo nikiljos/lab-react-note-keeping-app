@@ -1,0 +1,57 @@
+.Editor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.Editor>div{
+    width: 50%;
+    min-width: 230px;
+}
+
+.Editor h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.input textarea{
+    max-width: 70%;
+    max-height: 60vh;
+    background-color: inherit;
+    color: #ffffff;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.clear button{
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 4px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.clear button:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+
+
+.out-box{
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    width: 80%;
+    height: 90%;
+    max-height: 80vh;
+    background-color: #464646;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: 3px 3px 9px #000000aa;
+    border-radius: 5px;
+}
